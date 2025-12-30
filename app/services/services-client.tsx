@@ -2,7 +2,7 @@
 
 import { Suspense, useState } from "react"
 import { useSearchParams } from "next/navigation"
-import { getServicesByCategory } from "@/data/services"
+import { getServicesByCategory, SERVICE_CATEGORIES } from "@/data/services"
 import { translations, type Language } from "@/data/i18n"
 
 function ServicesContent({ language }: { language: Language }) {
@@ -11,10 +11,22 @@ function ServicesContent({ language }: { language: Language }) {
 
     const categories = [
         { id: "all", label: language === "en" ? "All Services" : "সব সেবা" },
-        { id: "biophysical", label: language === "en" ? "Laser Therapy" : "লেজার থেরাপি" },
-        { id: "orthopedic", label: language === "en" ? "Orthopedic" : "অর্থোপেডিক" },
-        { id: "neurological", label: language === "en" ? "Neurological" : "নিউরোলজিক্যাল" },
-        { id: "manualtherapy", label: language === "en" ? "Rehabilitation" : "পুনর্বাসন" },
+        // Neurological
+        { id: "neurological", label: language === "en" ? SERVICE_CATEGORIES.neurological : SERVICE_CATEGORIES.neurologicalbn },
+        // Orthopedic
+        { id: "orthopedic", label: language === "en" ? SERVICE_CATEGORIES.orthopedic : SERVICE_CATEGORIES.orthopedicbn },
+        // Pediatric
+        { id: "pediatric", label: language === "en" ? SERVICE_CATEGORIES.pediatric : SERVICE_CATEGORIES.pediatricbn },
+        // Geriatric
+        { id: "geriatric", label: language === "en" ? SERVICE_CATEGORIES.geriatric : SERVICE_CATEGORIES.geriatricbn },
+        // Biophysical
+        { id: "biophysical", label: language === "en" ? SERVICE_CATEGORIES.biophysical : SERVICE_CATEGORIES.biophysicalbn },
+        // Manual Therapy
+        { id: "manualtherapy", label: language === "en" ? SERVICE_CATEGORIES.manualtherapy : SERVICE_CATEGORIES.manualtherapybn },
+        // Occupational Therapy
+        { id: "occupational", label: language === "en" ? SERVICE_CATEGORIES.occupational : SERVICE_CATEGORIES.occupationalbn },
+        // Speech Therapy
+        { id: "speech", label: language === "en" ? SERVICE_CATEGORIES.speech : SERVICE_CATEGORIES.speechbn },
     ]
 
     const services = getServicesByCategory(activeCategory)

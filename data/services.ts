@@ -24,6 +24,10 @@ export const SERVICE_CATEGORIES = {
   biophysicalbn: "জৈবিক পদার্থবিজ্ঞান",
   manualtherapy: "Manual Therapy",
   manualtherapybn: "ম্যানুয়াল থেরাপি",
+  occupational: "Occupational Therapy",
+  occupationalbn: "অক্যুপেশনাল থেরাপি",
+  speech: "Speech & Language Therapy",
+  speechbn: "স্পিচ এবং ল্যাঙ্গুয়েজ থেরাপি",
 }
 
 export const SERVICES: Service[] = [
@@ -77,7 +81,7 @@ export const SERVICES: Service[] = [
     description: "Relief and recovery for acute and chronic back pain",
     descriptionbn: "তীব্র এবং দীর্ঘস্থায়ী পিঠের ব্যথার জন্য ত্রাণ এবং পুনরুদ্ধার",
     category: "orthopedic",
-    icon: "🫀",
+    icon: "🩻",
     image: "/services/Back Pain Treatment.jpg",
   },
   {
@@ -237,6 +241,30 @@ export const SERVICES: Service[] = [
     category: "manualtherapy",
     icon: "🤸",
     image: "/services/Stretching & Flexibility.jpg",
+  },
+
+  // Occupational Therapy
+  {
+    id: "occupational-therapy",
+    name: "Occupational Therapy",
+    namebn: "অক্যুপেশনাল থেরাপি",
+    description: "Therapy to improve daily living and working skills",
+    descriptionbn: "দৈনন্দিন জীবনযাপন এবং কাজের দক্ষতা উন্নত করার থেরাপি",
+    category: "occupational",
+    icon: "🧩",
+    image: "/services/Occupational Therapy.jpg",
+  },
+
+  // Speech and Language Therapy
+  {
+    id: "speech-therapy",
+    name: "Speech and Language Therapy",
+    namebn: "স্পিচ এবং ল্যাঙ্গুয়েজ থেরাপি",
+    description: "Treatment for speech, language, and swallowing disorders",
+    descriptionbn: "কথা, ভাষা এবং গিলতে সমস্যার চিকিৎসা",
+    category: "speech",
+    icon: "🗣️",
+    image: "/services/Speech and Language Therapy.jpg",
   },
 ]
 
