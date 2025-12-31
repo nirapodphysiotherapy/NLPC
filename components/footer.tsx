@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { CLINIC } from "@/data/clinic"
 import { translations, type Language } from "@/data/i18n"
-import { FaFacebook, FaWhatsapp } from "react-icons/fa"
+import { FaFacebook, FaWhatsapp, FaLinkedin } from "react-icons/fa"
 
 interface FooterProps {
   language?: Language
@@ -91,6 +91,17 @@ export function Footer({ language = "en" }: FooterProps) {
               >
                 <span className="text-xl">
                   <FaWhatsapp className="h-6 w-6" />
+                </span>
+              </a>
+              <a
+                href={CLINIC.socialLinks.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white transition-colors"
+                aria-label="LinkedIn"
+              >
+                <span className="text-xl">
+                  <FaLinkedin className="h-6 w-6" />
                 </span>
               </a>
             </div>

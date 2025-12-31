@@ -16,5 +16,6 @@ export const CLINIC = {
   socialLinks: {
     facebook: "https://www.facebook.com/syed0406/",
     whatsapp: "https://wa.me/8801915025539",
+    linkedin: "https://www.linkedin.com/in/dr-syed-ahmad-ali-bpt-b47360172/",
   },
 }
