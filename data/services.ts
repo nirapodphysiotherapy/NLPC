@@ -73,6 +73,18 @@ export const SERVICES: Service[] = [
     image: "/services/Bell's Palsy Rehabilitation.jpg",
   },
 
+  {
+    id: "guillain-barre-syndrome",
+    name: "Guillain-Barré Syndrome Rehabilitation",
+    namebn: "গিলিয়ান-বারে সিনড্রোম পুনর্বাসন",
+    description: "Specialized rehabilitation and supportive care for Guillain-Barré Syndrome recovery",
+    descriptionbn: "গিলিয়ান-বারে সিনড্রোম থেকে সুস্থতার জন্য বিশেষায়িত পুনর্বাসন ও সহায়ক যত্ন",
+    category: "neurological",
+    icon: "🦽",
+    image: "/services/Guillain-Barre Syndrome.jpg",
+  },
+
+
   // Orthopedic
   {
     id: "back-pain",
