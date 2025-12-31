@@ -18,6 +18,22 @@ function AboutContent({ language }: { language: Language }) {
                 </div>
             </section>
 
+            {/* Physiotherapy Awareness Section */}
+            <section className="bg-gray-50 py-20">
+                <div className="mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
+                    <h2 className="mb-6 text-3xl font-bold text-blue-900 leading-snug">
+                        আন্তর্জাতিক পদ্ধতিতে আধুনিক ফিজিওথেরাপি নিয়ে সুস্থ ও ব্যথামুক্ত জীবন যাপন করুন।
+                    </h2>
+
+                    <p className="text-lg text-gray-700 leading-relaxed">
+                        আধুনিক চিকিৎসাবিজ্ঞানে বাত, ব্যথা, প্যারালাইসিস, স্পোর্টস ইনজুরি ও পূর্ণবাসনে
+                        পার্শ্বপ্রতিক্রিয়ামুক্ত চিকিৎসা পদ্ধতি হলো ফিজিওথেরাপি।
+                        ফিজিওথেরাপি চিকিৎসা নেওয়ার আগে জেনে নিন, আপনার চিকিৎসকের “বিপিটি (BPT)” ডিগ্রি আছে কি না।
+                        মনে রাখবেন, কেবলমাত্র “বিপিটি” ডিগ্রিধারীরাই ফিজিওথেরাপি চিকিৎসক বা ফিজিওথেরাপিস্ট।
+                    </p>
+                </div>
+            </section>
+
             {/* Mission & Vision */}
             <section className="py-20">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -53,6 +69,8 @@ function AboutContent({ language }: { language: Language }) {
                     </div>
                 </div>
             </section>
+
+
 
             {/* Why Choose Us */}
             <section className="bg-gray-50 py-20">

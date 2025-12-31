@@ -63,6 +63,42 @@ function ContactForm({ language }: { language: Language }) {
                 <GoogleMapEmbed embedUrl={CLINIC.mapEmbedUrl} height="500px" className="w-full rounded-none" />
             </section>
 
+            {/* শাখাসমূহের তথ্য */}
+            <section className="py-16 bg-gray-50">
+                <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <div className="grid gap-8 md:grid-cols-2">
+
+                        {/* খিলগাঁও শাখা */}
+                        <div className="rounded-lg bg-white p-6 shadow-sm">
+                            <h3 className="mb-3 text-xl font-bold text-green-600">খিলগাঁও শাখা</h3>
+                            <p className="text-gray-700 leading-relaxed">
+                                হাউজ # ১০৬, রোড # ১৬, মুক্তা বিরিয়ানির বিপরীতে, তিলপাপাড়া ডেন্টালের পার্শ্বে, খিলগাঁও, ঢাকা-১২১৯।
+                            </p>
+                            <p className="mt-3 text-gray-700">
+                                <strong>রোগী দেখার সময়:</strong><br />
+                                শনি থেকে বৃহস্পতি<br />
+                                সকাল ৯.০০ – ৩.০০টা
+                            </p>
+                        </div>
+
+                        {/* বনশ্রী শাখা */}
+                        <div className="rounded-lg bg-white p-6 shadow-sm">
+                            <h3 className="mb-3 text-xl font-bold text-green-600">বনশ্রী শাখা</h3>
+                            <p className="text-gray-700 leading-relaxed">
+                                বাড়ি # ০৬, রোড # ০৪, ব্লক # এইচ, রামপুরা, মেয়াদিয়া অটো স্ট্যান্ডের সামনে, হলিক্রিসেন স্কুলের পার্শ্বে।
+                            </p>
+                            <p className="mt-3 text-gray-700">
+                                <strong>রোগী দেখার সময়:</strong><br />
+                                শনি থেকে বৃহস্পতি<br />
+                                বিকাল ৩টা – রাত ৯টা
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
             {/* Contact Content */}
             <section className="py-20">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
