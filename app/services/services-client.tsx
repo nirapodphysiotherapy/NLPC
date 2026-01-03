@@ -27,6 +27,13 @@ function ServicesContent({ language }: { language: Language }) {
         { id: "occupational", label: language === "en" ? SERVICE_CATEGORIES.occupational : SERVICE_CATEGORIES.occupationalbn },
         // Speech Therapy
         { id: "speech", label: language === "en" ? SERVICE_CATEGORIES.speech : SERVICE_CATEGORIES.speechbn },
+        // Alternative & Complementary Therapy
+        {
+            id: "alternative",
+            label: language === "en"
+                ? SERVICE_CATEGORIES.alternative
+                : SERVICE_CATEGORIES.alternativebn,
+        },
     ]
 
     const services = getServicesByCategory(activeCategory)

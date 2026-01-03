@@ -28,6 +28,9 @@ export const SERVICE_CATEGORIES = {
   occupationalbn: "অক্যুপেশনাল থেরাপি",
   speech: "Speech & Language Therapy",
   speechbn: "স্পিচ এবং ল্যাঙ্গুয়েজ থেরাপি",
+  alternative: "Alternative & Complementary Therapy",
+  alternativebn: "বিকল্প ও সম্পূরক থেরাপি",
+
 }
 
 export const SERVICES: Service[] = [
@@ -278,6 +281,45 @@ export const SERVICES: Service[] = [
     icon: "🗣️",
     image: "/services/Speech and Language Therapy.jpg",
   },
+
+  // Alternative & Complementary Therapy
+  {
+    id: "hijama-therapy",
+    name: "Hijama Therapy (Wet Cupping)",
+    namebn: "হিজামা থেরাপি (ভেজা কাপিং)",
+    description: "Traditional wet cupping therapy to improve blood circulation, relieve pain, and promote natural healing",
+    descriptionbn: "রক্ত সঞ্চালন উন্নত, ব্যথা উপশম এবং প্রাকৃতিক নিরাময়促 করার জন্য ঐতিহ্যবাহী ভেজা কাপিং থেরাপি",
+    category: "alternative",
+    icon: "🩸",
+    image: "/services/Hijama Therapy.jpg",
+    conditions: [
+      "Chronic pain",
+      "Back pain",
+      "Neck pain",
+      "Migraine",
+      "Muscle tightness",
+      "Stress & fatigue",
+    ],
+  },
+  {
+    id: "acupuncture",
+    name: "Acupuncture Therapy",
+    namebn: "আকুপাংচার থেরাপি",
+    description: "Evidence-based acupuncture treatment to reduce pain, improve nerve function, and restore energy balance",
+    descriptionbn: "ব্যথা কমানো, স্নায়ুর কার্যকারিতা উন্নত করা এবং শরীরের শক্তির ভারসাম্য পুনরুদ্ধারের জন্য প্রমাণভিত্তিক আকুপাংচার থেরাপি",
+    category: "alternative",
+    icon: "🪡",
+    image: "/services/Acupuncture Therapy.jpg",
+    conditions: [
+      "Chronic pain",
+      "Joint pain",
+      "Headache & migraine",
+      "Neuropathic pain",
+      "Stress & anxiety",
+      "Muscle spasm",
+    ],
+  },
+
 ]
 
 export function getServicesByCategory(category: string): Service[] {
