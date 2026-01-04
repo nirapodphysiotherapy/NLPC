@@ -49,7 +49,7 @@ function HomeContent({ language }: { language: Language }) {
             {/* RIGHT: YOUTUBE VIDEO */}
             <div className="order-2 lg:order-2">
               <YouTubeVideo
-                videoId="Dzag99t6ugM"
+                videoId="Fi5cWAN2kcU"
                 className="w-full h-[300px] lg:h-[400px] rounded-lg shadow-xl"
                 config={{ lazyLoad: true, mute: true, showControls: true, modestBranding: true }}
               />
