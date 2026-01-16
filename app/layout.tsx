@@ -81,6 +81,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${notoBengali.variable}`}>
       <head>
+        <link rel="icon" href="/favicon.ico" />
         {/* Dummy Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{

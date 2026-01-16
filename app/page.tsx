@@ -5,6 +5,7 @@ import Link from "next/link"
 import { DoctorCard } from "@/components/doctor-card"
 import { ServiceGrid } from "@/components/service-grid"
 import { YouTubeVideo } from "@/components/youtube-video"
+import { EquipmentCarousel } from "@/components/equipment-carousel"
 import { DOCTORS } from "@/data/doctors"
 import { getServicesByCategory } from "@/data/services"
 import { translations, type Language } from "@/data/i18n"
@@ -101,6 +102,23 @@ function HomeContent({ language }: { language: Language }) {
               {t("servicesTitle")}
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Equipment Carousel */}
+      <section className="py-20 bg-white">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mb-12 text-center">
+            <h2 className="mb-4 text-3xl font-bold text-blue-900">
+              {language === "en" ? "Our Modern Equipment" : "আমাদের আধুনিক যন্ত্রপাতি"}
+            </h2>
+            <p className="text-gray-600">
+              {language === "en"
+                ? "State-of-the-art facilities for your recovery"
+                : "আপনার সুস্থতার জন্য অত্যাধুনিক সুবিধা"}
+            </p>
+          </div>
+          <EquipmentCarousel />
         </div>
       </section>
 

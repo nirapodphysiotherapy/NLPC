@@ -22,8 +22,8 @@ export const DOCTORS: Doctor[] = [
     "titlebn": "বিপিটি (ঢাবি), মেডিসিন ফ্যাকাল্টি, এমপিএইচ (ইউএসএ)",
     "specialties": ["Mobilization and Manual Therapy", "McKenzie Approach", "Orthopedic Medicine (Cyriax)"],
     "specialtiesbn": ["মোবিলাইজেশন এন্ড ম্যানুয়াল থেরাপি", "মেকেনজি এপ্রোস", "অর্থোপেডিক মেডিসিন (সাইরাক্স)"],
-    "bio": "Chief Consultant in Physiotherapy Department specializing in orthopedic medicine (Cyriax), mobilization, manual therapy, and McKenzie approach. Master's degree holder with extensive clinical experience.",
-    "biobn": "ফিজিওথেরাপি বিভাগের চীফ কনসালট্যান্ট, অর্থোপেডিক মেডিসিন (সাইরাক্স), মোবিলাইজেশন, ম্যানুয়াল থেরাপি এবং মেকেনজি এপ্রোসে বিশেষজ্ঞ। মাস্টার্স ডিগ্রি ধারী এবং বিস্তৃত ক্লিনিক্যাল অভিজ্ঞতা সম্পন্ন।",
+    "bio": "Consultant at American International Hospital and Clinical Physical Therapist at Ibn Sina Diagnostic & Imaging Center Al-Manar Hospital and Institute of Neuro-Development & Research Center.",
+    "biobn": "আমেরিকান ইন্টারন্যাশনাল হসপিটালে কনসালট্যান্ট এবং ইবনে সিনা ডায়াগনস্টিক ও ইমেজিং সেন্টার আল-মানার হসপিটাল এবং ইনস্টিটিউট অফ নিউরো-ডেভেলপমেন্ট ও রিসার্চ সেন্টারে ক্লিনিক্যাল ফিজিক্যাল থেরাপিস্ট।",
     "image": "/images/doctor-syed.jpeg",
     "registration": "B.P.A. Reg. No.-295"
   },
@@ -52,6 +52,19 @@ export const DOCTORS: Doctor[] = [
     "biobn": "অর্থোপেডিক মেডিসিন (সাইরাক্স)-এ বিশেষজ্ঞ। মাস্কিউলোস্কেলেটাল মূল্যায়ন ও পুনর্বাসনে অভিজ্ঞ অকুপেশন থেরাপি বিভাগের কনসালট্যান্ট।",
     "image": "/images/doctor-korishma-afrin.jpeg",
     "registration": "B.P.A. Reg. No.- "
+  },
+  {
+    "id": "mrs-tanjila",
+    "name": "Mrs. Tanjila",
+    "namebn": "মিসেস তানজিলা",
+    "title": "Nutrition expert. BSc in PHN, MSc in NFS, PGT in Clinical Nutrition & Dietetics",
+    "titlebn": "পুষ্টি বিশেষজ্ঞ। বিএসসি ইন পিএইচএন, এমএসসি ইন এনএফএস, পিজিটি ইন ক্লিনিক্যাল নিউট্রিশন অ্যান্ড ডায়েটেটিক্স",
+    "specialties": ["Clinical Nutrition", "Dietetics"],
+    "specialtiesbn": ["ক্লিনিক্যাল নিউট্রিশন", "ডায়েটেটিক্স"],
+    "bio": "Nutrition expert specializing in Clinical Nutrition & Dietetics. She is a valued new team member of the clinic.",
+    "biobn": "ক্লিনিক্যাল নিউট্রিশন ও ডায়েটেটিক্সে বিশেষজ্ঞ পুষ্টিবিদ। তিনি ক্লিনিকের একজন নতুন সদস্য।",
+    "image": "/images/Mrs. Tanjila.jpg",
+    "registration": ""
   }
 
 ]
