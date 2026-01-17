@@ -18,11 +18,11 @@ export const DOCTORS: Doctor[] = [
     "id": "syed-ahmad",
     "name": "Dr. Syed Ahmad Ali PT",
     "namebn": "ডাক্তার সৈয়দ আহমদ আলী পি.টি",
-    "title": "B.P.T (DU), Medicine Faculty, M.P.H (USA)",
+    "title": "B.P.T (DU), Medicine Faculty, M.P.H (USA)\nOwner & Chief Consultant - \nNIRAPOD LASER PHYSIOTHERAPY CENTER.",
     "titlebn": "বিপিটি (ঢাবি), মেডিসিন ফ্যাকাল্টি, এমপিএইচ (ইউএসএ)",
     "specialties": ["Mobilization and Manual Therapy", "McKenzie Approach", "Orthopedic Medicine (Cyriax)"],
     "specialtiesbn": ["মোবিলাইজেশন এন্ড ম্যানুয়াল থেরাপি", "মেকেনজি এপ্রোস", "অর্থোপেডিক মেডিসিন (সাইরাক্স)"],
-    "bio": "Consultant at American International Hospital and Clinical Physical Therapist at Ibn Sina Diagnostic & Imaging Center Al-Manar Hospital and Institute of Neuro-Development & Research Center.",
+    "bio": "Professional Experience: Former Consultant - American International Hospital. Clinical Physical Therapist, Ibn Sina Diagnostic & Imaging Center. Clinical Physical Therapist, Al-Manar Hospital. Fellow (Bio- Physical Therapy) - Institute of Neuro-Development & Research Center.",
     "biobn": "আমেরিকান ইন্টারন্যাশনাল হসপিটালে কনসালট্যান্ট এবং ইবনে সিনা ডায়াগনস্টিক ও ইমেজিং সেন্টার আল-মানার হসপিটাল এবং ইনস্টিটিউট অফ নিউরো-ডেভেলপমেন্ট ও রিসার্চ সেন্টারে ক্লিনিক্যাল ফিজিক্যাল থেরাপিস্ট।",
     "image": "/images/doctor-syed.jpeg",
     "registration": "B.P.A. Reg. No.-295"

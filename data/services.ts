@@ -100,6 +100,16 @@ export const SERVICES: Service[] = [
     image: "/services/Back Pain Treatment.jpg",
   },
   {
+    id: "neck-pain",
+    name: "Neck Pain Therapy",
+    namebn: "ঘাড়ের ব্যথা চিকিৎসা",
+    description: "Relief and recovery for acute and chronic neck pain",
+    descriptionbn: "তীব্র এবং দীর্ঘস্থায়ী ঘাড়ের ব্যথার জন্য উপশম এবং পুনরুদ্ধার",
+    category: "orthopedic",
+    icon: "🤕",
+    image: "/services/neck pain.jpg",
+  },
+  {
     id: "knee-injury",
     name: "Knee Injury Rehabilitation",
     namebn: "হাঁটু আঘাত পুনর্বাসন",
