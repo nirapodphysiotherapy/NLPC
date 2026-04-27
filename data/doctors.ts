@@ -51,7 +51,7 @@ export const DOCTORS: Doctor[] = [
     "bio": "Specialist in orthopedic medicine (Cyriax). Consultant in the Occupational Therapy Department with a focus on musculoskeletal assessment and rehabilitation.",
     "biobn": "অর্থোপেডিক মেডিসিন (সাইরাক্স)-এ বিশেষজ্ঞ। মাস্কিউলোস্কেলেটাল মূল্যায়ন ও পুনর্বাসনে অভিজ্ঞ অকুপেশন থেরাপি বিভাগের কনসালট্যান্ট।",
     "image": "/images/doctor-korishma-afrin.jpeg",
-    "registration": "B.P.A. Reg. No.- "
+    "registration": ""
   },
   {
     "id": "mrs-tanjila",
